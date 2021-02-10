@@ -1,0 +1,14 @@
+Couleurs des éléments graphiques : 
+Orange : #FFBC7B 
+Rouge : #FFA88C 
+
+***********
+
+Couleur de la police : 
+Noir : #000000 
+
+***********
+
+Polices : 
+CAVIAR DREAMS 
+Photoshoot Regular

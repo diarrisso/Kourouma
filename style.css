@@ -1,0 +1,102 @@
+@font-face {
+    font-family: "Photoshoot";
+    src: url("font/Photoshoot.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Photoshoot";
+    src: url("font/Photoshoot.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "CaviarDreams";
+    src: url("font/CaviarDreams.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+
+
+body {
+    padding: 0;
+    margin: 0;
+
+}
+* {
+    box-sizing: border-box;
+}
+main {
+    max-width: 1200px;
+    margin: 0 auto;  
+} 
+.section-titre1 {
+    text-align: center;
+    font-size: 30px;
+    font-family: "Photoshoot";
+
+
+
+}
+
+h1:before {
+    content: "";
+    padding: 0 20px; 
+    background : url(/images/feuilles.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: auto;
+    object-fit: cover;
+   
+}
+
+h1:after {
+    content: "";
+    padding: 0 20px; 
+    background : url(/images/feuilles.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+}
+
+
+.section-bloc-texte {
+    display: flex;
+    font-family: "CaviarDreams";
+    font-size: 25px;
+    justify-content: space-around;
+}
+
+.section-card {
+    display: flex;
+}
+
+.card {
+    font-family: "CaviarDreams";
+    width: 400px;
+}
+
+.image-container {
+    width: 100%;
+    padding: 1em;
+    
+
+}
+.image-container img {
+    width: 100%;
+
+}
+
+.card-text {
+    font-size: 16px;
+}
+h2 {
+    font-family: "Photoshoot";
+    text-align: center;
+}
